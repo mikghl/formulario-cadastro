@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section id="cadastro">
+        <div class="container">
+            <h2>Formulário de cadastro</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="tel" name="cpf" id="cpf">
+                </div>
+                <div class="form-campo">
+                    <label for="endereço">Endereço completo:</label>
+                    <input type="text" name="endereço" id="endereço">
+                </div>
+                <div class="form-campo">
+                    <label for="cep">CEP:</label>
+                    <input type="tel" name="cep" id="cep">
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<!--Arquivo da máscara-->
+<script src="./Js/jquery.mask.min.js"></script>
+<!--Arquivo da validação-->
+<script src="./Js/jquery.validate.min.js"></script>
+<script src="Js/messages_pt_BR.min.js"></script>
+<script src="./Js/main.js" defer></script>
+</body>
+</html>
